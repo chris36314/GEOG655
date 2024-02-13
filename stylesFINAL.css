@@ -1,0 +1,53 @@
+/* CSS for Shiny Application */
+
+/* Customize number input */
+input[type="number"] {
+  max-width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0; /* Added margin around the input boxes */
+}
+
+/* Define outer container */
+div.outer {
+  position: fixed;
+  top: 100px; /* Adjusted top position */
+  left: 40px; /* Adjusted left position */
+  right: 40px; /* Adjusted right position */
+  bottom: 40px; /* Adjusted bottom position */
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Customize fonts */
+body, label, input, button, select { 
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 300;
+}
+h1, h2, h3, h4 { font-weight: 400; }
+
+/* Styling for controls panel */
+#controls {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 30px; /* Increased padding for better spacing */
+  cursor: move;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+  margin: 20px; /* Added margin around the box */
+}
+
+/* Position and style citation */
+#cite {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}
+
+/* Ensure map container has white background */
+.leaflet-container {
+  background-color: #f0f0f0 !important; /* Light gray background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Shadow for depth */
+}
